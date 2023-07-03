@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой блог</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">Bakh0d1r</a></h1>
+        <nav>
+            <ul>
+                <li><a href="./pages/about.html">Обо мне</a></li>
+                <li><a href="#posts">Посты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Привет, я [Ваше имя] и это мой блог, где я делюсь своими мыслями и идеями.</p>
+        </section>
+
+        <section id="posts">
+            <h2>Недавние посты</h2>
+            <!-- Добавьте свои посты в блоге здесь -->
+            <article>
+                <h3>Заголовок поста</h3>
+                <p>Текст поста...</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Свяжитесь со мной</h2>
+            <!-- Добавьте свою контактную форму или информацию здесь -->
+            <form action="submit-form.php" method="post">
+                <label for="name">Имя:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Электронная почта:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="message">Сообщение:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Авторское право © [Ваше имя] [Текущий год]</p>
+    </footer>
+
+    <!-- Скрипты JavaScript -->
+    <!-- ... -->
+</body>
+</html>
